@@ -1,0 +1,4 @@
+*.png
+*.bak*
+.env
+config.json
