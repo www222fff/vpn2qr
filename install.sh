@@ -127,11 +127,12 @@ fi
 LINK="vless://${UUID}@${PUBLIC_IP}:${PORT}?encryption=none&flow=xtls-rprx-vision&security=reality&sni=${SNI}&fp=chrome&pbk=${PUBLIC_KEY}&sid=${SHORT_ID}&spx=%2F&type=tcp#${NODE_NAME}"
 
 QR_PNG=/root/onexray-reality.png
-qrencode -o "$QR_PNG" "$LINK"
+# UTF8 + 小边距：远程控制台里比 ANSIUTF8 紧凑约一半，便于扫码
+qrencode -m 1 -s 4 -o "$QR_PNG" "$LINK"
 
 echo
 echo "==================== 手机扫码导入 ===================="
-qrencode -t ANSIUTF8 "$LINK"
+qrencode -m 1 -t UTF8 "$LINK"
 echo
 echo "VPS IP     : $PUBLIC_IP"
 echo "Port       : $PORT"
