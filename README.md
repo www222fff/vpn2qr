@@ -12,8 +12,6 @@ curl -fsSL https://raw.githubusercontent.com/www222fff/xray-onexray-reality/main
 
 ## 安装演示
 
-https://github.com/user-attachments/assets/demo.mp4 (可在浏览器直接播放)
-
 <video src="assets/demo.mp4" controls="controls" width="100%"></video>
 
 > 如果网页端未自动渲染视频播放器，可直接点击查看：[assets/demo.mp4](assets/demo.mp4)
