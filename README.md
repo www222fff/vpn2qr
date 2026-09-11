@@ -23,3 +23,11 @@ https://github.com/user-attachments/assets/demo.mp4 (可在浏览器直接播放
 - 不要把 UUID、密钥、导入链接、二维码发到公开聊天或提交到 Git
 - 仅供个人学习与自用，请遵守当地法律及服务商条款
 - 本仓库不包含任何真实节点凭据
+
+## Star History
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=www222fff/xray-onexray-reality&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=www222fff/xray-onexray-reality&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=www222fff/xray-onexray-reality&type=Date" />
+</picture>
