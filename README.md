@@ -14,8 +14,6 @@ curl -fsSL https://raw.githubusercontent.com/www222fff/xray-onexray-reality/main
 
 ![安装演示](assets/demo.gif)
 
-> 📹 原始高清视频：[assets/demo.mp4](assets/demo.mp4)
-
 ## 安全提醒
 
 - 不要把 UUID、密钥、导入链接、二维码发到公开聊天或提交到 Git
